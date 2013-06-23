@@ -1,6 +1,6 @@
 development:
       host: localhost
-      adapter: mysql
+      adapter: sqlite
       database: fedena_ultimate
       port: 3306
       username: root
@@ -16,7 +16,7 @@ test: &test
 
 production:
       host: localhost
-      adapter: mysql
+      adapter: sqlite3
       database: fedena_ultimate
       port: 3306
       username: root
