@@ -1,4 +1,4 @@
-source :rubygems
+source 'https://rubygems.org'
 
 gem 'rails','2.3.5'
 gem 'i18n','0.4.2'
@@ -19,4 +19,4 @@ group :production do
 end
 
 gem 'thin'
-gem 'therubyracer'
+gem 'therubyracer', :platforms => :ruby
